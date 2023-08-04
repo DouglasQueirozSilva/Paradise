@@ -1,0 +1,154 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+ @keyframes carossel {
+     0% {
+         background: url(Imagens/Firefly\ rio\ de\ janeiro\ praia\ 13552.jpg) center / cover no-repeat;
+     }
+
+     30% {
+         background: url(Imagens/Firefly\ rio\ de\ janeiro\ praia\ 13552.jpg) center / cover no-repeat;
+     }
+
+     40% {
+         background: url(Imagens/Lagoa.jpg) center / cover no-repeat;
+     }
+
+     70% {
+         background: url(Imagens/Lagoa.jpg) center / cover no-repeat;
+     }
+
+     80% {
+         background: url(Imagens/Firefly\ rio\ de\ janeiro\ praia\ 65030.jpg) center / cover no-repeat;
+     }
+
+     95% {
+         background: url(Imagens/Firefly\ rio\ de\ janeiro\ praia\ 65030.jpg) center / cover no-repeat;
+     }
+
+     100% {
+         background: url(Imagens/Firefly\ rio\ de\ janeiro\ praia\ 13552.jpg) center / cover no-repeat;
+     }
+
+
+ }
+
+ .logo {
+     font-family: fantasy;
+     font-size: 30px !important;
+ }
+
+ nav {
+     background-color: rgb(104, 188, 199);
+     padding: 4px;
+ }
+
+ nav>a {
+     text-decoration: none;
+     margin: 40px;
+ }
+
+ .cards-site {
+     height: 40vh;
+     animation: carossel 20s infinite;
+ }
+
+ .img {
+     width: 280px;
+     height: 180px;
+     padding: 5px;
+     border-radius: 18px;
+ }
+
+ footer {
+     height: 50px;
+     width: 100%;
+     /* position: absolute; */
+     /* bottom: 0px; */
+     text-align: center;
+ }
+
+ .img-footer {
+     width: 250px;
+ }
+
+ .card-destino {
+     min-width: 40px;
+     flex: 1 1 100px;
+     display: flex !important;
+ }
+
+
+
+ .card1 {
+     height: 300px;
+     position: relative;
+     perspective: 800px;
+ }
+
+ .front,
+ .back {
+     width: 250px;
+     height: 100%;
+     position: absolute;
+     backface-visibility: hidden;
+     transition: all 1s;
+     border: 2px solid rgb(156, 132, 224);
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+ }
+
+ .front {
+     overflow: hidden;
+     background-color: #272727;
+     color: #fff;
+ }
+
+ .img-front {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+ }
+
+ .back {
+     background-color: #70faff;
+     transform: rotateY(-180deg);
+ }
+
+ .card1:hover .front {
+     transform: rotateY(180deg);
+ }
+
+ .card1:hover .back {
+     transform: rotateY(0);
+ }
+
+ .titulo-h2 {
+     background-color: #333;
+     padding: 20px;
+     color: #fff;
+ }
+
+ .preco {
+     font-weight: bold;
+ }
+
+ .promo {
+     background-color: #333;
+     padding: 20px;
+     color: #fff;
+ }
+
+ .promo1 {
+     background-color: #69c9da;
+     padding: 18px;
+     color: black;
+ }
+
+ .promo2 {
+     font-weight: bold;
+ }
