@@ -62,8 +62,6 @@
  footer {
      height: 50px;
      width: 100%;
-     /* position: absolute; */
-     /* bottom: 0px; */
      text-align: center;
  }
 
@@ -115,7 +113,7 @@
  }
 
  .back {
-     background-color: #70faff;
+     background-color: #f1e7f0;
      transform: rotateY(-180deg);
  }
 
@@ -144,11 +142,115 @@
  }
 
  .promo1 {
-     background-color: #69c9da;
+     background-color: #198754;
      padding: 18px;
-     color: black;
+     color: rgb(245, 242, 242);
  }
 
  .promo2 {
      font-weight: bold;
+ }
+
+ .card3 {
+     color: rgb(31, 134, 86);
+ }
+
+ .caixa {
+     background-color: rgb(230, 90, 40);
+     color: white;
+     border-radius: 3px;
+     padding: 1px;
+ }
+
+ .estrela {
+     color: rgba(255, 68, 0, 0.945);
+ }
+
+ .minhaborda {
+     border: 1px solid black;
+     border-radius: 5px;
+     box-shadow: 20px 11px 11px 3px rgba(0, 0, 0, 0.479);
+ }
+
+ .center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100hv;
+ }
+
+ .principalform {
+     width: 70%;
+ }
+
+
+ main {
+     background-color: rgba(218, 213, 221, 0.897);
+ }
+
+ .fale-conosco {
+     text-align: center;
+     padding-top: 50px;
+     padding-block-end: 20px;
+     font-size: xx-large;
+ }
+
+ .footer-info {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .contact-info {
+     font-size: medium;
+ }
+
+ .end-info {
+     font-size: medium;
+ }
+
+ .footer-text {
+     text-align: center;
+ }
+
+ .img-footer {
+     width: 250px;
+ }
+
+ .insta {
+     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+     -webkit-background-clip: text;
+
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer;
+ }
+
+ .face {
+     color: #3B5998;
+     cursor: pointer;
+ }
+
+ .tw {
+     color: #00acee;
+     cursor: pointer;
+ }
+
+ .mess {
+     color: #3B5998;
+     cursor: pointer;
+
+ }
+
+ .whats {
+     color: rgb(50, 192, 14);
+     cursor: pointer;
+ }
+
+
+ @media screen and (max-width:600px) {
+     footer .footer-info {
+         display: flex;
+         flex-direction: column;
+
+     }
  }

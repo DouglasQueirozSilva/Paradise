@@ -28,13 +28,13 @@
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link active">Destino</a>
+              <a href="destino.html" class="nav-link active">Destino</a>
             </li>
             <li class="nav-item">
-              <a href="promoções.html" class="nav-link">Promoções</a>
+              <a href="promocao.html" class="nav-link">Promoções</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contato</a>
+              <a href="contato.html" class="nav-link">Contato</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -45,13 +45,14 @@
       </div>
     </nav>
   </header>
+
   <main>
     <section>
       <div class="titulo-h2">
         <h2>Seja bem vindo a nossa página de destino!</h2>
       </div>
       <div>
-        <h1 class="consulta text-center">
+        <h1 class="consulta text-center text-info">
           Escolha o seu destino:
         </h1>
       </div>
@@ -60,25 +61,25 @@
           <img class="img" src="Imagens/card1.webp" alt="imagem rio de janeiro">
           <div class="mx-5 d-flex flex-column justify-content-center">
             <p><input type="radio" name="cidade" id="idrj">
-              <label for="idrj">Rio de Janeiro:</label>
+              <label for="idrj"><b>Rio de Janeiro:</b></label>
             </p>
-            <p>
+            <p class="text-info">
               Viagens para o Rio de janeiro!
             </p>
-            <p class="preco">R$: 890,00 reais </p>
+            <p class="preco">R$: 1.390,00 reais </p>
           </div>
         </div>
         <div class="card-destino">
           <img class="img" src="Imagens/sao paulo.jpg" alt="imagem cidade de sao paulo">
           <div class="mx-5 d-flex flex-column justify-content-center">
             <p><input type="radio" name="cidade" id="idsp">
-              <label for="idsp">São Paulo:</label>
+              <label for="idsp"><b>São Paulo:</b></label>
             </p>
-            <p>
+            <p class="text-info">
               Viagens para São Paulo!
             </p>
             <p class="preco">
-              R$: 1.090,00 reais
+              R$: 3.090,00 reais
             </p>
           </div>
         </div>
@@ -86,9 +87,9 @@
           <img class="img" src="Imagens/central park.jpg" alt="imagem do central park">
           <div class="mx-5 d-flex flex-column justify-content-center">
             <p><input type="radio" name="cidade" id="idcp">
-              <label for="idcp">Cental Park:</label>
+              <label for="idcp"><b>Cental Park:</b></label>
             </p>
-            <p>
+            <p class="text-info">
               Viagens para New York!
             </p>
             <p class="preco"> R$: 6.190,00 reais </p>
@@ -98,25 +99,45 @@
           <img class="img" src="Imagens/Lisboa.jpg" alt="imagem de lisboa portugual">
           <div class="mx-5 d-flex flex-column justify-content-center">
             <p><input type="radio" name="cidade" id="idlb">
-              <label for="idlb">Lisboa:</label>
+              <label for="idlb"><b>Lisboa:</b></label>
             </p>
-            <p>
+            <p class="text-info">
               Viagens para Lisboa!
             </p>
-            <p class="preco">R$: 3.850,00 reais</p>
+            <p class="preco">R$: 3.299,90 reais</p>
           </div>
         </div>
-
-
       </form>
     </section>
   </main>
+  <footer class="p-5">
+    <div class="footer-info">
+      <div class="contact-info">
 
-
-
-
-
-
+        <h5>Telefone para contato</h5>
+        <p><b>Tel:</b> (21) 3452-0454 </p>
+        <p><b>Cel:</b> (21) 96378-3952</p>
+      </div>
+      <div class="end-info">
+        <h5>Endereço</h5>
+        <p>Av. Presidente Vargas, 1586 - Bairro Centro</p>
+        <p> Rio de Janeiro - Rj</p>
+      </div>
+      <div class="social-media">
+        <h5> Nossas mídias sociais</h5>
+        <i class="bi bi-instagram insta fs-4"
+          onclick="window.open('https://www.instagram.com/hacker_2024/', '_blank')"></i>
+        <i class="bi bi-facebook face fs-4" onclick="window.open('https://www.facebook.com/', '_blank')"></i>
+        <i class="bi bi-twitter tw fs-4" onclick="window.open('https://www.twitter.com/', '_blank')"></i>
+        <i class="bi bi-messenger mess fs-4" onclick="window.open('https://www.messenger.com/', '_blank')"></i>
+        <i class="bi bi-whatsapp whats fs-4 " onclick="window.open('https://web.whatsapp.com/', '_blank')"></i>
+      </div>
+    </div>
+    <div class="footer-text">
+      <p>&copy; 2023 Agência de Viagens<b> PARADISE </b>. Todos os direitos reservados.</p>
+      <img class="img-footer mb-3" src="Imagens/footer3.png" alt="Bandeiras Cartoes">
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
