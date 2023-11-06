@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light mt-0">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">
+              <i class="bi bi-globe-americas fs-1 me-2"></i>
+              Paradise</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="destino.html" class="nav-link">Destino</a>
+                </li>
+                <li class="nav-item">
+                  <a href="promocao.html" class="nav-link">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contato.html" class="nav-link">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a href="cadastro.html" class="nav-link active">Cadastro</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Procurar">
+                <button class="btn btn-outline-danger bi-search" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+ 
+<ul>
+  <form action="/cliente-create">
+    
+    <div class="lg-3">
+        
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" name="nome">
+  
+    </div>
+  
+  <div class="mb-3">
+  
+      <label for="telefone" class="form-label">telefone</label>
+      <input type="text" class="form-control" id="telefone" aria-describedby="emailHelp" name="telefone">
+  
+    </div>
+  
+  <div class="mb-3">
+  
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+  
+    </div>
+  
+    <div class="mb-3">
+  
+      <label for="senha" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="senha" name="senha">
+  
+    </div>
+  
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+  
+  </form>
+</ul>  
+ <footer class="p-5">
+    <div class="footer-info">
+      <div class="contact-info">
+        <h5>Telefone para contato</h5>
+        <p><b>Tel:</b> (21) 3452-0454 </p>
+        <p><b>Cel:</b> (21) 96378-3952</p>
+      </div>
+      <div class="end-info">
+        <h5>Endereço</h5>
+        <p>Av. Presidente Vargas, 1586 - Bairro Centro</p>
+        <p> Rio de Janeiro - Rj</p>
+      </div>
+      <div class="social-media">
+        <h5> Nossas mídias sociais</h5>
+        <i class="bi bi-instagram insta fs-4"
+          onclick="window.open('https://www.instagram.com/hacker_2024/', '_blank')"></i>
+        <i class="bi bi-facebook face fs-4" onclick="window.open('https://www.facebook.com/', '_blank')"></i>
+        <i class="bi bi-twitter tw fs-4" onclick="window.open('https://www.twitter.com/', '_blank')"></i>
+        <i class="bi bi-messenger mess fs-4" onclick="window.open('https://www.messenger.com/', '_blank')"></i>
+        <i class="bi bi-whatsapp whats fs-4 " onclick="window.open('https://web.whatsapp.com/', '_blank')"></i>
+      </div>
+    </div>
+    <div class="footer-text">
+      <p>&copy; 2023 Agência de Viagens<b> PARADISE </b>. Todos os direitos reservados.</p>
+      <img class="img-footer mb-3" src="Imagens/footer3.png" alt="Bandeiras Cartoes">
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+   </body>
+   </html>     
+    
